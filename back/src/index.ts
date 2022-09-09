@@ -16,4 +16,4 @@ app.all('*', UnknownRoutesHandler)
 
 app.use(ExceptionsHandler)
 
-app.listen(config.API_PORT, () => console.log('Silence, ça tourne.'))
+app.listen(config.API_PORT, () => console.log('WEB SERVER Launched'))
